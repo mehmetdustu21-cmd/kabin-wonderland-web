@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -38,17 +39,33 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="group bg-gradient-primary hover:shadow-glow transition-all duration-300 text-base px-8"
+              asChild
             >
-              Hemen Dene
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <a href="tel:08503463864">
+                <Phone className="mr-2 h-5 w-5" />
+                Bize Ulaşın
+              </a>
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-primary/50 hover:bg-primary/10 text-base px-8"
-            >
-              Nasıl Çalışır?
-            </Button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  className="border-primary/50 hover:bg-primary/10 text-base px-8"
+                >
+                  Nasıl Çalışır?
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[800px]">
+                <DialogHeader>
+                  <DialogTitle>Demo Video</DialogTitle>
+                </DialogHeader>
+                <div className="aspect-video w-full bg-muted rounded-lg flex items-center justify-center">
+                  <p className="text-muted-foreground">Video URL'nizi buraya ekleyebilirsiniz</p>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
 
           <div className="pt-8 flex items-center justify-center gap-8 text-sm text-muted-foreground">
