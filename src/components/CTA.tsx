@@ -17,7 +17,7 @@ const CTA = () => {
             Alışveriş Deneyiminizi Dönüştürmeye Hazır mısınız?
           </h2>
           <p className="text-lg text-white/90">
-            e kabin ile tanışın ve geleceğin alışveriş teknolojisini bugünden deneyimleyin.
+            E Kabin ile tanışın ve geleceğin alışveriş teknolojisini bugünden deneyimleyin.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
@@ -45,8 +45,17 @@ const CTA = () => {
                 <DialogHeader>
                   <DialogTitle>Demo Video</DialogTitle>
                 </DialogHeader>
-                <div className="aspect-video w-full bg-muted rounded-lg flex items-center justify-center">
-                  <p className="text-muted-foreground">Video URL'nizi buraya ekleyebilirsiniz</p>
+                <div className="aspect-video w-full rounded-lg overflow-hidden">
+                  <iframe 
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/embed/8nOxwyAwjjQ" 
+                    title="E Kabin Demo" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
               </DialogContent>
             </Dialog>

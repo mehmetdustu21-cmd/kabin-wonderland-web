@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold gradient-text mb-2">e kabin</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-2">E Kabin</h3>
             <p className="text-sm text-muted-foreground">
               Sanal giyim deneme kabini ile geleceğin alışverişi
             </p>
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © 2025 e kabin. Tüm hakları saklıdır.
+          © 2025 E Kabin. Tüm hakları saklıdır.
         </div>
       </div>
     </footer>
