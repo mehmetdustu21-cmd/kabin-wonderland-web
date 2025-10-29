@@ -3,23 +3,23 @@ import { Card } from "@/components/ui/card";
 const steps = [
   {
     number: "01",
-    title: "Fotoğrafınızı Yükleyin",
-    description: "Basit ve hızlı bir şekilde fotoğrafınızı sisteme yükleyin.",
+    title: "İletişime Geçin",
+    description: "Ekibimizle görüşün ve işletmenizin ihtiyaçlarını paylaşın.",
   },
   {
     number: "02",
-    title: "Kıyafet Seçin",
-    description: "Geniş ürün kataloğumuzdan beğendiğiniz kıyafetleri seçin.",
+    title: "Platformunuza Entegre Edin",
+    description: "E-ticaret sitenize kolay entegrasyon ile hızlı başlangıç yapın.",
   },
   {
     number: "03",
-    title: "Sanal Deneme",
-    description: "AI teknolojisi ile seçtiğiniz kıyafetleri üzerinizde görün.",
+    title: "Ürünlerinizi Ekleyin",
+    description: "Ürün katalojınızı sisteme yükleyin ve sanal deneme için hazırlayın.",
   },
   {
     number: "04",
-    title: "Satın Alın",
-    description: "Beğendiğiniz ürünleri sepete ekleyin ve güvenle satın alın.",
+    title: "Sonuçları Görün",
+    description: "Detaylı raporlar ile iade oranlarındaki düşüşü ve satış artışını takip edin.",
   },
 ];
 
@@ -32,7 +32,7 @@ const HowItWorks = () => {
             Nasıl <span className="gradient-text">Çalışır?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            4 basit adımda sanal kabin deneyimini yaşayın
+            4 basit adımda işletmenizi dönüştürün
           </p>
         </div>
 

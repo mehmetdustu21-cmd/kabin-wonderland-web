@@ -1,26 +1,26 @@
 import { Card } from "@/components/ui/card";
-import { Sparkles, Zap, Shield, Smartphone } from "lucide-react";
+import { TrendingDown, Users, Zap, HeadphonesIcon } from "lucide-react";
 
 const features = [
   {
-    icon: Sparkles,
-    title: "Yapay Zeka Teknolojisi",
-    description: "Gelişmiş AI algoritmaları ile kıyafetler vücudunuza tam oturur şekilde görüntülenir.",
+    icon: TrendingDown,
+    title: "İade Oranlarını Azaltın",
+    description: "Müşterileriniz ürünleri sanal olarak deneyerek daha bilinçli alışveriş yapar, iadeler %70'e kadar azalır.",
+  },
+  {
+    icon: Users,
+    title: "Müşteri Memnuniyeti",
+    description: "Yenilikçi alışveriş deneyimi ile müşteri sadakatini ve memnuniyetini artırın.",
   },
   {
     icon: Zap,
-    title: "Anlık Deneme",
-    description: "Saniyeler içinde farklı kıyafetleri deneyin, karşılaştırın ve karar verin.",
+    title: "Kolay Entegrasyon",
+    description: "Mevcut e-ticaret platformunuza kolayca entegre edin. Tek satır kod ile başlayın.",
   },
   {
-    icon: Shield,
-    title: "Güvenli & Özel",
-    description: "Tüm verileriniz şifreli ve güvenli. Gizliliğiniz bizim önceliğimiz.",
-  },
-  {
-    icon: Smartphone,
-    title: "Her Yerden Erişim",
-    description: "Masaüstü, tablet veya mobil cihazınızdan dilediğiniz yerden alışveriş yapın.",
+    icon: HeadphonesIcon,
+    title: "7/24 Teknik Destek",
+    description: "Profesyonel destek ekibimiz her zaman yanınızda. Sorunsuz bir deneyim için buradayız.",
   },
 ];
 
@@ -30,10 +30,10 @@ const Features = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Neden <span className="gradient-text">e kabin?</span>
+            Neden <span className="gradient-text">E Kabin?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Modern teknoloji ile alışveriş deneyiminizi bir üst seviyeye taşıyoruz
+            İşletmeniz için ölçülebilir değer yaratan, kanıtlanmış çözümler
           </p>
         </div>
 

@@ -14,10 +14,10 @@ const CTA = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Alışveriş Deneyiminizi Dönüştürmeye Hazır mısınız?
+            İşletmenizi Dönüştürmeye Hazır mısınız?
           </h2>
           <p className="text-lg text-white/90">
-            E Kabin ile tanışın ve geleceğin alışveriş teknolojisini bugünden deneyimleyin.
+            E Kabin ile müşterilerinize benzersiz bir alışveriş deneyimi sunun ve satışlarınızı artırın.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
@@ -41,15 +41,12 @@ const CTA = () => {
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </DialogTrigger>
-              <DialogContent className="sm:max-w-[800px]">
-                <DialogHeader>
-                  <DialogTitle>Demo Video</DialogTitle>
-                </DialogHeader>
-                <div className="aspect-video w-full rounded-lg overflow-hidden">
+              <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden">
+                <div className="aspect-video w-full">
                   <iframe 
                     width="100%" 
                     height="100%" 
-                    src="https://www.youtube.com/embed/8nOxwyAwjjQ" 
+                    src="https://www.youtube.com/embed/N-45Kpr6rR8" 
                     title="E Kabin Demo" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

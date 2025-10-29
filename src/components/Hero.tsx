@@ -31,8 +31,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Yapay zeka destekli sanal kabin teknolojisi ile kıyafetlerinizi deneyimleyin. 
-            Hızlı, kolay ve güvenli alışveriş artık parmaklarınızın ucunda.
+            E-ticaret mağazanız için yapay zeka destekli sanal kabin teknolojisi. 
+            İade oranlarını azaltın, müşteri memnuniyetini artırın.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -57,15 +57,12 @@ const Hero = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </DialogTrigger>
-              <DialogContent className="sm:max-w-[800px]">
-                <DialogHeader>
-                  <DialogTitle>Demo Video</DialogTitle>
-                </DialogHeader>
-                <div className="aspect-video w-full rounded-lg overflow-hidden">
+              <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden">
+                <div className="aspect-video w-full">
                   <iframe 
                     width="100%" 
                     height="100%" 
-                    src="https://www.youtube.com/embed/8nOxwyAwjjQ" 
+                    src="https://www.youtube.com/embed/N-45Kpr6rR8" 
                     title="E Kabin Demo" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
